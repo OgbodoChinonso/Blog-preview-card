@@ -4,11 +4,10 @@
 }
 body{
   background-color: hsl(47, 88%, 63%);
-  display: flex;
-  justify-content: center;
 }
  .attribution { 
-  font-size: 11px; text-align: center; 
+  font-size: 11px;
+  text-align: center; 
 }
     
   .attribution a { 
@@ -20,24 +19,53 @@ body{
       border-radius: 15px;
       box-shadow: 5px 5px 3px black;
       width: 40%;
-      height: 350px;
+      height: 370px;
       flex-direction: column;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
+      margin: 0 auto;
     }
-    .illustration-img{
+    .illustration-img
+    {
       width: 230px;
+      margin: 0 auto;
       margin-top: 10px;
       border: 1px hidden;
       border-radius: 9px;
+
     }
     .avatar-img{
       width: 1.5rem;
+      margin-right: 10px;
     }
     .learn-container {
       background-color:hsl(47, 88%, 63%);
       color: black;
-      padding: 3px;
+      padding: 5px;
       border: 1px hidden;
-      border-radius: 3px;
+      margin: 10px 0 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    footer{
+      margin: 0 auto;
+      margin-top: 20px;
+      width: fit-content;
+    }
+    .blog-details{
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    h4{
+      margin: 15px 0;
+    }
+    span p{
+      color: gray;
+      margin-bottom: 15px;
+    }
+    .blog-bottom-details{
+      display: flex;
+      align-items: center;
     }
